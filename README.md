@@ -2,6 +2,12 @@
 
 ForgeFlow is a MERN-style Business Development Associate module for a manufacturing company. It helps BDA teams manage industrial lead pipelines, quotation follow-ups, client communication, owner accountability, and team performance from one dashboard.
 
+## About This Project
+
+ForgeFlow BDA CRM is a business development workflow system tailored for manufacturing companies. The project is designed around how BDA and sales teams handle industrial enquiries: capturing leads, qualifying requirements, tracking quotation stages, planning follow-ups, monitoring team targets, and preparing won deals for production handoff.
+
+The dashboard combines a Kanban-style sales pipeline, financial forecast metrics, lead detail panels, priority tracking, communication history, and team performance indicators. It is built as a MERN-style full-stack assessment project with a React/Next.js frontend, Express backend, MongoDB data models, validation, seed data, and deployment-ready documentation.
+
 ## Selected Assessment Module
 
 **Business Development Associate Team Module for a Manufacturing Company**
@@ -24,6 +30,25 @@ I selected this module because it demonstrates the strongest full-stack scope fo
 - **Backend:** Node.js, Express.js, TypeScript
 - **Database:** MongoDB with Mongoose
 - **Validation:** Zod
+- **Deployment:** GitHub and Vercel
+
+## Technologies Used In Detail
+
+- **React:** Used to build interactive dashboard components, pipeline cards, filters, lead detail panels, metric widgets, and team performance sections.
+- **Next.js App Router:** Provides the application structure, page routing, layout system, metadata, optimized production build, and Vercel-friendly deployment.
+- **TypeScript:** Adds type safety for lead stages, CRM data, React component props, Express routes, and shared utility functions.
+- **Tailwind CSS:** Handles responsive UI styling, dashboard grids, cards, buttons, filters, spacing, and manufacturing-focused color styling.
+- **lucide-react:** Provides clean icons for dashboard metrics, actions, navigation, filters, calls, emails, visits, and team indicators.
+- **Node.js:** Runs the backend API layer and local development tooling.
+- **Express.js:** Provides REST API endpoints for leads, dashboard summaries, activities, and health checks.
+- **MongoDB:** Stores CRM data such as leads, deal values, owners, stages, priorities, due dates, and activity records.
+- **Mongoose:** Defines MongoDB schemas for leads and communication activities, including validation rules and timestamps.
+- **Zod:** Validates incoming request payloads before creating or updating lead records.
+- **dotenv:** Loads environment variables such as `MONGODB_URI`, `PORT`, and frontend API URLs.
+- **CORS:** Allows the frontend and backend to communicate safely during local development and deployment.
+- **Docker Compose:** Provides an optional local MongoDB service for development.
+- **Vercel:** Hosts the deployed frontend experience.
+- **GitHub:** Hosts the project repository and source code for assessment submission.
 
 ## Folder Structure
 
