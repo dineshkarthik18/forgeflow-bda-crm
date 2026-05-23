@@ -1,0 +1,11 @@
+services:
+  mongodb:
+    image: mongo:7
+    container_name: forgeflow-bda-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - forgeflow_mongo:/data/db
+
+volumes:
+  forgeflow_mongo:
